@@ -28,5 +28,9 @@ $(".js--wp-3").waypoint(function (direction){
   offset:"60%;"
 });
 
+  
+  $(".js--nav").on("click",function (){
+  $("#navi-toggle").prop("checked",false);
+});
 
 });
